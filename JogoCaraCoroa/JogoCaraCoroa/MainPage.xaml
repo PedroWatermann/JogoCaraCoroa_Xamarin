@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JogoCaraCoroa.MainPage"
+             BackgroundColor="#63BF8B"
+             Title="Cara ou Coroa">
+
+    <StackLayout>
+        <Image Source="logo" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        <ImageButton Source="botao_jogar" Margin="20" BackgroundColor="Transparent" x:Name="btnJogar" Clicked="btnJogar_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
